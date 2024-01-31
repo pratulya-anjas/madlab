@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="grocery_items">
+        <item>Apples</item>
+        <item>Bananas</item>
+        <item>Carrots</item>
+        <!-- Add more items as needed -->
+    </array>
+</resources>

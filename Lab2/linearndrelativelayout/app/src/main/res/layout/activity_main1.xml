@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000">
+
+    <TextView
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+
+        android:background="#000000"
+        android:text="Type Here!!"
+        android:textColor="#6161A1"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/simpleEditText"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="38dp"
+        android:background="#F2F2F2"
+        android:hint=""
+        android:padding="5dp"
+        android:textColorHint="#000"/>
+
+    <Button
+        android:id="@+id/myButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/simpleEditText"
+        android:layout_alignRight="@+id/simpleEditText"
+        android:layout_marginTop="8dp"
+        android:text="Click Me" />
+
+    <Button
+        android:id="@+id/myButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/simpleEditText"
+        android:layout_marginTop="9dp"
+        android:layout_marginRight="12dp"
+        android:layout_toLeftOf="@+id/myButton"
+        android:text="Click Me not" />
+
+
+</RelativeLayout>
